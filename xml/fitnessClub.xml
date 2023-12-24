@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="fitnessClub.xslt"?>
+<fc:fitnessClub xmlns:fc="https://it.nure.ua/sport"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://it.nure.ua/sport fitnessClub.xsd">
+    <fc:clients>
+        <fc:client id="1">
+            <fc:name>Ivan</fc:name>
+            <fc:surname>Ivanov</fc:surname>
+            <fc:photo>https://avatars.com/avatar1.jpeg</fc:photo>
+            <fc:dateOfBirth>2023-10-02T21:33:44Z</fc:dateOfBirth>
+            <fc:currentSubscription>
+                <fc:price>50.00</fc:price>
+                <fc:startDate>2023-10-02T21:33:44Z</fc:startDate>
+                <fc:endDate>2023-10-02T21:33:44Z</fc:endDate>
+                <fc:coach>
+                    <fc:name>John</fc:name>
+                    <fc:surname>Doe</fc:surname>
+                    <fc:experience>1.0</fc:experience>
+                </fc:coach>
+            </fc:currentSubscription>
+        </fc:client>
+        <fc:client id="2">
+            <fc:name>Ivan</fc:name>
+            <fc:surname>Sidorov</fc:surname>
+            <fc:photo>https//avatarscom/avatar.jpeg</fc:photo>
+            <fc:dateOfBirth>2023-10-02T21:33:44Z</fc:dateOfBirth>
+            <fc:currentSubscription>
+                <fc:price>250.00</fc:price>
+                <fc:startDate>2023-10-02T21:33:44Z</fc:startDate>
+                <fc:endDate>2023-10-02T21:33:44Z</fc:endDate>
+                <fc:coach id="2">
+                    <fc:name>John</fc:name>
+                    <fc:surname>Doe</fc:surname>
+                    <fc:experience>2.0</fc:experience>
+                </fc:coach>
+            </fc:currentSubscription>
+        </fc:client>
+        <fc:client id="3">
+            <fc:name>Ivan</fc:name>
+            <fc:surname>Petrov</fc:surname>
+            <fc:photo>https://avatars.com/avatar1.jpeg</fc:photo>
+            <fc:dateOfBirth>2023-10-02T21:33:44Z</fc:dateOfBirth>
+            <fc:currentSubscription>
+                <fc:price>150.00</fc:price>
+                <fc:startDate>2023-10-02T21:33:44Z</fc:startDate>
+                <fc:endDate>2023-10-02T21:33:44Z</fc:endDate>
+                <fc:coach id="2">
+                    <fc:name>John</fc:name>
+                    <fc:surname>Doe</fc:surname>
+                    <fc:experience>1.0</fc:experience>
+                </fc:coach>
+            </fc:currentSubscription>
+        </fc:client>
+        <!-- Add more clients as needed -->
+    </fc:clients>
+</fc:fitnessClub>

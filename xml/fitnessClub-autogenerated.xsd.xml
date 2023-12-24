@@ -1,0 +1,21 @@
+<spor:fitnessClub xmlns:spor="https://it.nure.ua/sport">
+  <spor:clients>
+    <!--Zero or more repetitions:-->
+    <spor:client id="3">
+      <spor:name>string</spor:name>
+      <spor:surname>string</spor:surname>
+      <spor:photo>string</spor:photo>
+      <spor:dateOfBirth>2008-09-29T04:49:45</spor:dateOfBirth>
+      <spor:currentSubscription id="3">
+        <spor:price>1000.00</spor:price>
+        <spor:startDate>2014-09-19T02:18:33</spor:startDate>
+        <spor:endDate>2006-08-19T20:27:14+03:00</spor:endDate>
+        <spor:coach id="3">
+          <spor:name>string</spor:name>
+          <spor:surname>string</spor:surname>
+          <spor:experience>1000.00</spor:experience>
+        </spor:coach>
+      </spor:currentSubscription>
+    </spor:client>
+  </spor:clients>
+</spor:fitnessClub>
